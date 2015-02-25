@@ -1,0 +1,26 @@
+Product page: http://arduino.cc/en/Main/ArduinoBoardProMini
+
+Summary
+Microcontroller			ATmega168
+Operating Voltage		5V
+Input Voltage			5 - 12 V (5V model)
+Digital I/O Pins		14 (of which 6 provide PWM output)
+Analog Input Pins		8
+DC Current per I/O Pin		40 mA
+Flash Memory			16 KB (of which 2 KB used by bootloader)
+SRAM				1 KB
+EEPROM				512 bytes
+Clock Speed			16 MHz (5V model)
+
+Software Link: http://arduino.cc/en/Main/Software
+
+
+USB-TTL to Arduino Wiring diagram
+USB-TTL			Arduino
+3.3v			DO NOT USE THIS CONNECTION. THIS WILL BREAK THE ARDUINO
+5.0v			VCC
+TXD			RXI
+RXD			TX0
+GND			GND
+
+To program the Arduino, hit the "reset" button before clicking upload on the IDE.
