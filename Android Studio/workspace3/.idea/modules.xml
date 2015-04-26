@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/YADrone/YADrone.iml" filepath="$PROJECT_DIR$/YADrone/YADrone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YADroneAndroid/YADroneAndroid.iml" filepath="$PROJECT_DIR$/YADroneAndroid/YADroneAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/workspace3.iml" filepath="$PROJECT_DIR$/workspace3.iml" />
+    </modules>
+  </component>
+</project>
+
