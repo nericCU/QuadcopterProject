@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Anon\eclipse\workspace3\YADroneAndroid\libs\yadrone_03.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="aff60b4fa1494de8b20e1d07d0f9ea8a941d7d5a">
+        <dex dex="C:\Users\Anon\eclipse\workspace3\YADroneAndroid\build\intermediates\pre-dexed\debug\yadrone_03-4a9b992cd3c1312b409c76b6520ede383c9c848d.jar" />
+    </item>
+
+</items>
