@@ -410,17 +410,17 @@ public class PilotingActivity extends Activity implements DeviceControllerListen
             {
                 if (deviceController != null)
                 {
-                    new Timer().schedule(new goFwd(), 2000);
-//                    deviceController.sendTakeoff();
-//                    pause(2000);
-//                    deviceController.setPitch((byte) 50);
-//                    deviceController.setFlag((byte) 1);
-//                    pause(2000);
-//                    deviceController.setPitch((byte) 0);
-//                    deviceController.setFlag((byte) 0);
-//                    pause(3000);
-//                    deviceController.sendLanding();
-                }
+
+                   deviceController.sendTakeoff();
+                   pause(2000);
+                   deviceController.setPitch((byte) 50);
+                   deviceController.setFlag((byte) 1);
+                   pause(2000);
+                   deviceController.setPitch((byte) 0);
+                   deviceController.setFlag((byte) 0);
+                   pause(3000);
+                   deviceController.sendLanding();
+
             }
         });
 

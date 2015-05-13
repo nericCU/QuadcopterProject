@@ -1,0 +1,7 @@
+Assuming Unix (Ubuntu 14.10) Environment
+
+serial reader written in C
+
+compile: G++ -o main main.cpp
+run: ./main
+to be used with 3.0

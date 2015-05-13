@@ -7,7 +7,7 @@
 #include <pthread.h>
 
 
-#define MODEM "/dev/ttyUSB1"
+#define MODEM "/dev/ttyUSB0"
 #define BAUDRATE B4800    
 
 int flag;

@@ -1,1 +1,10 @@
-Android version for the 3.0
+Built and tested in an Unix (Ubuntu 14.10) Environment using Android Studio
+This program uses the Android version of the ARDroneSDk3
+
+Load the program into Android studio, generate the apk and install on an android device 19+
+
+This program is built off of the sample provided. It is, essentially, a bare-bones version of the official app for the 3.0
+
+Using this, we added new buttons to send basic route commands to the drone. We began integrating serial libraries to read data from the usb port but we couldn't get it to read data from the pcduino's usb port so we scrapped this project and went on to the Unix sample.
+
+
