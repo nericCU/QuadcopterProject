@@ -1,4 +1,5 @@
 Built and tested in an Unix (Ubuntu 14.10) Environment
+gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
 
 compile: g++ -o main main.cpp
 run: ./main
