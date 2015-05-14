@@ -29,23 +29,25 @@ public class YADroneControlCenter
 			long end = start + 30*1000; // 30 seconds * 1000 ms/sec
 			BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
 
-			
 			while (System.currentTimeMillis() < end)
 			{
 				if(serial.left_flag == 0){
 					ardrone.goLeft();	
 					Thread.sleep(500);
+					ardrone.freeze();
 				} 
 				
 				if(serial.forward_flag == 0){
 					ardrone.forward();	
 					Thread.sleep(500);
+					ardrone.freeze();
 
 				} 		
 				
 				if(serial.right_flag == 0){
 					ardrone.goRight();		
 					Thread.sleep(500);
+					ardrone.freeze();
 				} 
 			}
 			ardrone.landing();
